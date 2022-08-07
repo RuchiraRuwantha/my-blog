@@ -126,14 +126,14 @@ params:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
+        - "JavaScript"
+        - "Java"
+        - "React"
+        - "Node.js"
+        - "Express.js"
+        - "TypeScript"
         - "HTML"
         - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
-        - "TypeScript"
-        - "Java"
 
   # Experience
   experience:
@@ -150,8 +150,8 @@ params:
         content: |
           I am currently working as an associate software engineer at [LiveRoom (Pvt) Ltd.](https://liveroom.xyz) in Colombo, Sri Lanka.
         
-          - Worked with JavaScript frameworks like React, Node.js. 
-          - Designed UIs for major components according to the mock ups and Implemented functionalities and researched on software improvement and maintenance. Also implemented test automation suites.
+          - Worked as a full-stack engineer. Worked with JavaScript frameworks like React, Node.js for microsevices.
+          - Designed UIs for major components according to the mock ups and Implemented functionalities and RESTful APIs and researched on software improvement and maintenance. Also implemented test automation suites.
           - I am currently working on a project that will be used as a platform where customers can mint NFTs, and view, buy, transfer and sell them.
 
       - job: "Trainee Software Engineer"
@@ -283,7 +283,9 @@ params:
           - "Material-UI"
           - "CSS"
           - "Javascript"
+          - "Node.js"
           - "Cypress"
+          - "AWS"
         # links:
         #   - icon: fa fa-envelope
         #     url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
@@ -299,12 +301,13 @@ params:
         #   name: Demo
         #   link: https://django-converter.herokuapp.com
         badges:
+          - "TypeScript"
           - "Next.js"
           - "Tailwind CSS"
-          - "TypeScript"
           - "Moralis"
           - "Web3"
           - "Cypress"
+          - "AWS"
         # links:
         #   - icon: fab fa-github
         #     url: https://github.com/gurusabarish/converter
