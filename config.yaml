@@ -139,6 +139,21 @@ params:
   experience:
     enable: true
     items:
+      - job: "Software Engineer"
+        company: "ConceptVines"
+        companyUrl: "https://www.conceptvines.com/"
+        date: "Sept 2022 - present"
+        featuredLink:
+          enable: false
+          name: "View the project"
+          url: "https://example.com"
+        content: |
+          I am currently working as a software engineer at [ConceptVines](https://www.conceptvines.com/) in Pannipitiya, Sri Lanka.
+        
+          - Working as a full-stack engineer. Working with JavaScript frameworks like React, Node.js for microsevices.
+          - Designed UIs for major components according to the mock ups and Implemented functionalities and RESTful APIs and researched on software improvement and maintenance.
+          - I am currently working on a project that will be used to represent an asymmetric view of warehouse and show customized information about the workers and the warehouse itself.
+
       - job: "Associate Software Engineer"
         company: "LiveRoom"
         companyUrl: "https://liveroom.xyz"
