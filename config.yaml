@@ -98,7 +98,7 @@ params:
     title: "Ruchira."
     subtitle: "I build things for the web"
     content: "A passionate team player, keen on working in a competitive and innovative environment, with more challenges by providing elegant solutions. Also, an energetic and skillful self-learner who is extremely good at building strong affinities with productive communication. Displays more interest in learning new technologies."
-    image: /images/side_img.jpeg
+    image: /images/side_img.png
     button:
       enable: true
       name: "Resume"
