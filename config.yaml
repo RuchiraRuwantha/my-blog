@@ -134,6 +134,7 @@ params:
         - "HTML"
         - "CSS"
         - "Cypress"
+        - "Jest"
         - "AWS"
         - "Java"
 
@@ -153,7 +154,7 @@ params:
           I am currently working as a software engineer (Remote) at [ConceptVines](https://www.conceptvines.com/) in New York.
 
           - Working as a full-stack engineer. Working with JavaScript frameworks like React, Node.js for microsevices.
-          - Designed UIs for major components according to the mock ups and integrated APIs, implemented functionalities and RESTful APIs.
+          - Designed UIs for major components according to the mock ups and integrate APIs, implemente functionalities and RESTful APIs.
           - Researched on software improvement and maintenance and integrated with the clients and stakeholders directly.
           - I am currently working on a Banking-as-a-Service (BaaS) platform which will enables digital businesses across various industries to offer embedded financial services to their underserved customers.
 
