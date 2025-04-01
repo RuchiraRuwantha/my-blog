@@ -13,12 +13,12 @@ markup:
       unsafe: true
 
 Menus:
-  # main:
-  #   - identifier: blog
-  #     name: Blog
-  #     title: Blog posts
-  #     url: /blogs
-  #     weight: 1
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: /blogs
+      weight: 1
 
   #   - identifier: gallery
   #     name: Gallery
@@ -119,7 +119,7 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      I am a software developer with a passion for web development. I have experience in Javascript, Typescript, and front-end libraries like React and back-end server environments like Node.js and Javascript testing automation frameworks like Cypress. I am currently working as a software engineer at [Verdentra (Pvt) Ltd.](https://www.verdentra.com/). 
+      I am a software developer with a passion for web development. I have experience in Javascript, Typescript, and front-end libraries like React and back-end server environments like Node.js and Javascript testing automation frameworks like Cypress. I am currently working as a software engineer at [Verdentra (Pvt) Ltd.](https://www.verdentra.com/).
 
       I am currently working on a project that is a Banking-as-a-Service (BaaS) platform which will enables digital businesses across various industries to offer embedded financial services to their underserved customers.
     skills:
@@ -129,6 +129,8 @@ params:
         - "TypeScript"
         - "JavaScript"
         - "React"
+        - "SQL"
+        - "Snowflake"
         - "Node.js"
         - "Express.js"
         - "HTML"
@@ -143,8 +145,8 @@ params:
     enable: true
     items:
       - job: "Software Engineer"
-        company: "ConceptVines"
-        companyUrl: "https://www.conceptvines.com/"
+        company: "Verdentra"
+        companyUrl: "https://www.Verdentra.com/"
         date: "Sept 2022 - present"
         featuredLink:
           enable: false
@@ -153,24 +155,30 @@ params:
         content: |
           I am currently working as a software engineer (Remote) at [Verdenra](https://www.verdenra.com/) in New York.
 
-          - Working as a full-stack engineer. Working with JavaScript frameworks like React, Node.js for microsevices.
-          - Designed UIs for major components according to the mock ups and integrate APIs, implemente functionalities and RESTful APIs.
-          - Researched on software improvement and maintenance and integrated with the clients and stakeholders directly.
-          - I am currently working on a Banking-as-a-Service (BaaS) platform which will enables digital businesses across various industries to offer embedded financial services to their underserved customers.
+          - Specialized in developing front‑end solutions using React and creating robust microservices with Node.js
+          - Designed, developed, and deployed reusable, cross-browser compatible solutions, ensuring a seamless user experience across all platforms.
+          - Partnered closely with team leads, designers, and product managers to deliver key features, driving the project forward through effective collaboration.
+          - Gained substantial experience in core computer science principles, web development fundamentals, and agile methodologies.
+          - Proficient in asynchronous programming, data structures, and solution design, ensuring efficient and scalable software development.
+          - Engineered sleek UIs aligned with mock-ups, seamlessly integrated functionalities, and RESTful APIs for optimal performance.
+          # - I am currently working on a Banking-as-a-Service (BaaS) platform which will enables digital businesses across various industries to offer embedded financial services to their underserved customers.
 
       - job: "Associate Software Engineer"
         company: "LiveRoom"
         companyUrl: "https://liveroom.xyz"
-        date: "Mar 2021 - present"
+        date: "Mar 2021 - Sep 2022"
         featuredLink:
           enable: false
           name: "View the project"
           url: "https://example.com"
         content: |
-          I am currently working as an associate software engineer at [LiveRoom (Pvt) Ltd.](https://liveroom.xyz) in Colombo, Sri Lanka.
+          # I worked as an associate software engineer at [LiveRoom (Pvt) Ltd.](https://liveroom.xyz) in Colombo, Sri Lanka.
 
-          - Worked as a full-stack engineer. Worked with JavaScript frameworks like React, Node.js for microsevices.
-          - Designed UIs for major components according to the mock ups and Implemented functionalities and RESTful APIs and researched on software improvement and maintenance. Also implemented test automation suites.
+          - As a front-end engineer, spearheaded the design and development of pivotal software components with precision and innovation.
+          - Crafted compelling UIs aligned with mock-ups, executing, troubleshooting, and refining functionalities for seamless user experiences.
+          - Drove impactful research efforts to enhance software performance and ensure meticulous maintenance standards.
+          - Engineered and seamlessly integrated test automation suites into the CI/CD pipeline for efficient and reliable software deployment.
+          # - Designed UIs for major components according to the mock ups and Implemented functionalities and RESTful APIs and researched on software improvement and maintenance. Also implemented test automation suites.
 
       - job: "Trainee Software Engineer"
         company: "LiveRoom"
@@ -292,6 +300,9 @@ params:
       - title: Neem
         content: |
           Neem is a Banking-as-a-Service (BaaS) platform that provides B2B embedded finance and lending solutions to underserved communities in emerging markets. A team of experienced fintech entrepreneurs, technologists, and operators founded Neem to promote financial wellness for underbanked communities.
+
+          - Primarily worked on B2B and B2C platforms, driving user interface implementation, functionality enhancement, and API integration for \\impactful digital experiences.
+          - Directly collaborated with product owners for task planning and estimations, while spearheading the frontend team to deliver impactful results.
         image: /images/projects/profile.png
         featured:
           name: neem.io
@@ -306,6 +317,9 @@ params:
       - title: Modjoul
         content: |
           Modjoul is a centralized management system for warehouses which can manage employees and devices.
+
+          - Played a pivotal role in crafting primary UIs, integrating APIs within critical components, and executing API implementations with precision.
+          - Collaborated closely with the R\&D team to develop a cutting-edge MetaOps React Application, seamlessly interfacing with a Unity Application for enhanced communication and rendering capabilities.
         image: /images/projects/profile.png
         featured:
           name: modjoul.com
@@ -322,6 +336,10 @@ params:
       - title: OGMO
         content: |
           OGMO is a cloud platform specially developed for e-Commerce, enabling consumers to visualize products they buy through 3D and Augmented Reality.
+
+          - Worked on implementing the UIs of the major components and integrating the APIs.
+          - Worked in implementing functionalities & configuring the OGMO WordPress plugin.
+          - Implemented an automated test suite using Cypress and integrated it into the CI/CD.
         image: /images/projects/profile.png
         featured:
           name: ogmo.xyz
@@ -344,6 +362,10 @@ params:
 
       - title: Mintzilla
         content: This is a platform where customers can mint NFTs, and view, buy, transfer and sell them.
+
+        - Worked on implementing the UIs of the major components and integrating the APIs.
+        - Researched on software improvement and maintenance.
+        - Implemented an e2e test suite using Cypress and integrated it into the CI/CD.
         # image: /images/projects/converter.jpg
         # featured:
         #   name: Demo
@@ -386,7 +408,12 @@ params:
     btnName: Mail me
 
   footer:
-    recentPosts: false
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: true
+      disableFeaturedImage: false
     socialNetworks:
       github: https://github.com/RuchiraRuwantha
       linkedin: https://www.linkedin.com/in/ruchira-ruwantha/
