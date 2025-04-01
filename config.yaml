@@ -160,8 +160,7 @@ params:
           - Partnered closely with team leads, designers, and product managers to deliver key features, driving the project forward through effective collaboration.
           - Gained substantial experience in core computer science principles, web development fundamentals, and agile methodologies.
           - Proficient in asynchronous programming, data structures, and solution design, ensuring efficient and scalable software development.
-          - Engineered sleek UIs aligned with mock-ups, seamlessly integrated functionalities, and RESTful APIs for optimal performance.
-          # - I am currently working on a Banking-as-a-Service (BaaS) platform which will enables digital businesses across various industries to offer embedded financial services to their underserved customers.
+          - Engineered sleek UIs aligned with mock-ups, seamlessly integrated functionalities, and RESTful APIs for optimal performance.          
 
       - job: "Associate Software Engineer"
         company: "LiveRoom"
@@ -172,13 +171,12 @@ params:
           name: "View the project"
           url: "https://example.com"
         content: |
-          # I worked as an associate software engineer at [LiveRoom (Pvt) Ltd.](https://liveroom.xyz) in Colombo, Sri Lanka.
+          I worked as an associate software engineer at [LiveRoom (Pvt) Ltd.](https://liveroom.xyz) in Colombo, Sri Lanka.
 
           - As a front-end engineer, spearheaded the design and development of pivotal software components with precision and innovation.
           - Crafted compelling UIs aligned with mock-ups, executing, troubleshooting, and refining functionalities for seamless user experiences.
           - Drove impactful research efforts to enhance software performance and ensure meticulous maintenance standards.
-          - Engineered and seamlessly integrated test automation suites into the CI/CD pipeline for efficient and reliable software deployment.
-          # - Designed UIs for major components according to the mock ups and Implemented functionalities and RESTful APIs and researched on software improvement and maintenance. Also implemented test automation suites.
+          - Engineered and seamlessly integrated test automation suites into the CI/CD pipeline for efficient and reliable software deployment.          
 
       - job: "Trainee Software Engineer"
         company: "LiveRoom"
