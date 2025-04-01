@@ -352,24 +352,13 @@ params:
           - "Node.js"
           - "Cypress"
           - "AWS"
-        # links:
-        #   - icon: fa fa-envelope
-        #     url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-        #   - icon: fab fa-github
-        #     url: https://github.com/gurusabarish/hugo-profile
-        #   - icon: fab fa-twitter
-        #     url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
-
       - title: Mintzilla
-        content: This is a platform where customers can mint NFTs, and view, buy, transfer and sell them.
+        content: |
+          This is a platform where customers can mint NFTs, and view, buy, transfer and sell them.
 
-        - Worked on implementing the UIs of the major components and integrating the APIs.
-        - Researched on software improvement and maintenance.
-        - Implemented an e2e test suite using Cypress and integrated it into the CI/CD.
-        # image: /images/projects/converter.jpg
-        # featured:
-        #   name: Demo
-        #   link: https://django-converter.herokuapp.com
+          - Worked on implementing the UIs of the major components and integrating the APIs.
+          - Researched on software improvement and maintenance.
+          - Implemented an e2e test suite using Cypress and integrated it into the CI/CD.       
         badges:
           - "TypeScript"
           - "Next.js"
