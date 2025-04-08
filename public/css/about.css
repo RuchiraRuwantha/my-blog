@@ -27,7 +27,11 @@
 #single .page-content a {
     display: inline-block;
     text-decoration: none;
+<<<<<<< HEAD
     color: var(--primary-color) !important;
+=======
+    color: var(--text-link-color) !important;
+>>>>>>> 2177be0af96019a886abd520d5af15d96ce9965b
 }
 
 #single .page-content a::after {
