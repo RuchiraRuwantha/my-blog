@@ -5,8 +5,15 @@
         {{ range ( where .Site.RegularPages "Type" "blogs" | first 3 ) }}
         <div class="col-lg-4 col-md-6 pt-2">
             <div class="card h-100">
+                {{ if and (not (.Site.Params.footer.recentPosts.disableFeaturedImage | default false)) (.Params.image) }}
+                <div class="card-header">
+                    <a href="{{ .Params.external_url }}" target="_blank">
+                        <img src="{{ .Params.image }}" class="card-img-top" alt="{{ .Title }}">
+                    </a>
+                </div>
+                {{ end }}
                 <div class="card-body bg-transparent p-3 shadow-sm">
-                    <a href="{{ .Params.external_url }}" class="primary-font card-title">
+                    <a href="{{ .Params.external_url }}" class="primary-font card-title" target="_blank">
                         <h5 class="card-title bg-transparent" title="{{ .Title }}">{{ .Title | truncate 25 }}</h5>
                     </a>
                     <div class="card-text secondary-font">
@@ -15,7 +22,7 @@
                 </div>
                 <div class="mt-auto card-footer">
                     <span class="float-start">{{ .Date.Format "January 2, 2006" }}</span>
-                    <a href="{{ .Params.external_url }}" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    <a href="{{ .Params.external_url }}" class="float-end btn btn-outline-info btn-sm" target="_blank">Read</a>
                 </div>
             </div>
         </div>
